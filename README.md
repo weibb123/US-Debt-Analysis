@@ -3,7 +3,7 @@
 - [Question 1](#Question-1)
 - [Question 2](#Question-2)
 - [Question 3](#Question-3)
-- [Final Findings](#Final-Findings)
+- [Final Information](#Final-Information)
 
 ## Problem Statement
 
