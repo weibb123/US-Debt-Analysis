@@ -1,5 +1,6 @@
 # Content
 [Problem Statement](#Problem-Statement)
+[Question 1](#Question-1)
 
 ## Problem Statement
 
@@ -8,7 +9,7 @@ The US Governement has requested an analysis of their public and governemental d
 
 Using the Questions and Data Dictionary Provided, answer the questions using charts/graphs and narratives.
 
-### Questions
+### 3 Questions to answer
 
 What was the Yearly Debt Percentage Increase for each year compared to the previous year?
 
@@ -32,7 +33,30 @@ initial dataset looks like this with about 7000 columns. We may want to clean it
 - Further cleaning seeing theres a lot of **nulls** and some **blanks**. we can select all → data → filter
 - control + h, replace null to blank since we want columns to be numeric
 
+## Question 1:
 
+What was the Yearly Debt Percentage Increase for each year compared to the previous year?
+
+1. we can exclude year 2023 since theres no full months
+2. we can only consider the last day of last month for each year, that is december 30/31
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/0f68b445-c614-4869-9b6e-26712255f069/4dacb6d7-f4c0-4345-ade2-2e3363b22d9f/image.png)
+
+1. you can then calculate percent change by using the formula = (new year - prev year) / prev year *100
+2. Now you can get other debt changes by dragging green dot
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/0f68b445-c614-4869-9b6e-26712255f069/024504ac-f363-492d-826f-2875a38c91a9/image.png)
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/0f68b445-c614-4869-9b6e-26712255f069/d9f51f26-1d4c-43a8-8cd8-398324f1f05f/image.png)
+
+1. highlight all these, **insert** → **recommended charts** for visualization
+2. you then need to sort years from smallest to largest for graph to show years chronologically
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/0f68b445-c614-4869-9b6e-26712255f069/629148c1-cba5-4892-8e92-aae8558738ba/image.png)
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/0f68b445-c614-4869-9b6e-26712255f069/51487dec-287c-48c5-b7bc-89e4e4193d5a/image.png)
+
+to type something like this, insert → textbox. Make sure for conclusion, **dig deeper** to something readers might not think about. Sometimes you have to do **further research**
 
 ### Question 2:
 
