@@ -1,6 +1,6 @@
 # Content
-[Problem Statement](#Problem-Statement)
-[Question 1](#Question-1)
+- [Problem Statement](#Problem-Statement)
+- [Question 1](#Question-1)
 
 ## Problem Statement
 
